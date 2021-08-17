@@ -6,19 +6,19 @@
 
 3. Installation is possible using Composer.
 
-If you don't already use Composer, you can download the composer.phar binary:
+	If you don't already use Composer, you can download the composer.phar binary:
 
-	curl -sS https://getcomposer.org/installer | php
+		curl -sS https://getcomposer.org/installer | php
 
-Then install the library:
+	Then install the library:
 
-	php composer.phar require php-webdriver/webdriver
+		php composer.phar require php-webdriver/webdriver
 
 4. Start Selenium server in cmd (for example "C:\>java -jar selenium-server-standalone-3.141.59.jar")
 
 5. Run test files:
-    test_part_1.php (in which go to the Crowdin page to create a new organization)
-    test_part_2.php (navigate to Crowdin page for login and add new user to the organization)
+    test_part_1.php (in which go to the Crowdin page to create a new organization);
+    test_part_2.php (navigate to Crowdin page for login and add new user to the organization).
     
 *******
 
