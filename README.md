@@ -1,3 +1,29 @@
+## Short list for work with tests files
+
+1. Download the project
+
+2. Download on PC current stable PHP version
+
+3. Installation is possible using Composer.
+
+If you don't already use Composer, you can download the composer.phar binary:
+
+	curl -sS https://getcomposer.org/installer | php
+
+Then install the library:
+
+	php composer.phar require php-webdriver/webdriver
+
+4. Start Selenium server in cmd (for example "C:\>java -jar selenium-server-standalone-3.141.59.jar")
+
+5. Run test files:
+    test_part_1.php (in which go to the Crowdin page to create a new organization)
+    test_part_2.php (navigate to Crowdin page for login and add new user to the organization)
+    
+*******
+
+# INSTALLATION DETAILS
+
 # php-webdriver – Selenium WebDriver bindings for PHP
 
 [![Latest stable version](https://img.shields.io/packagist/v/php-webdriver/webdriver.svg?style=flat-square&label=Packagist)](https://packagist.org/packages/php-webdriver/webdriver)
