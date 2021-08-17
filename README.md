@@ -17,7 +17,9 @@
 4. Start Selenium server in cmd (for example "C:\>java -jar selenium-server-standalone-3.141.59.jar")
 
 5. Run test files:
+    
     test_part_1.php (in which go to the Crowdin page to create a new organization);
+    
     test_part_2.php (navigate to Crowdin page for login and add new user to the organization).
     
 *******
